@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -19,10 +20,15 @@ section {
     padding: 1%;
 }
 
+.half-width img {
+    width: 80%;
+}
+
 .aj-kal {
     text-decoration: none;
     background-image: linear-gradient();
     padding: 10px 40px;
+    color: chartreuse;
     border-radius: 5px;
     font-weight: 700;
     border: 5px;
@@ -30,4 +36,11 @@ section {
 
 .top-banner {
     background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.drem-big {
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
